@@ -64,7 +64,7 @@ Voting Ensemble was selected as the optimal model by the AutoML run. It is an en
 ![Pipeline_5](Outputs/Pipeline_5.png)
 ![Pipeline_6](Outputs/Pipeline_6.png)
 
-## Screen Recording:
+## Screencast:
 
 Refer this [recording](https://drive.google.com/file/d/1Rk0RDdDzcnGk56rUKuPeuEfNJ_WDdY2t/view?usp=sharing) for more details regarding the implementation.
 
