@@ -25,6 +25,7 @@ The classification goal is to predict if the client will subscribe a term deposi
 ![AutoML_3]()
 
 Voting Ensemble was selected as the optimal model by the AutoML run. It is an ensemble machine learning model that combines the predictions from multiple other models (Eg, LightGBM, Random forest etc:-). It is a technique that may be used to improve model performance, ideally achieving better performance than any single model used in the ensemble.
+
 **2. Deploying the best model:** Deployment is about delivering a trained model into production so that it can be consumed by others. In Azure, deploying the best model will allow it to interact with the HTTP API service and interact with the model by sending data over POST requests. In this project, I have deployed the model into a production environment using Azure Container Instance (ACI). ACI offers the fastest and simplest way to run a container without having to manage any virtual machines and without having to adopt a higher-level service. Also, authentication is enabled to prevent unauthorized access.
 
 **3. Enable application insights:** Application Insights is a very useful tool to detect anomalies and visualize performance. Though it can be enabled before deployment, here we have used Python SDK to enable it after deploying the best model. After downloading [config.json]() from ML studio, python file [logs.py]() is executed to enable logging. 
@@ -61,7 +62,7 @@ A benchmark is used to create a baseline or acceptable performance measure. Benc
 
 ## Screen Recording:
 
-Refer the [Recording]() to visualize the project in a better way. 
+Refer this [recording]() for more details regarding the implementation.
 
 ## Future improvements: 
 - Make changes while training the the models using AutoML(For example, Include deep learning models or increase the time for exit criterion while training and see if it will give a better accuracy). Deploy the model only after being sure that the best model obtained is actually the "best". 
