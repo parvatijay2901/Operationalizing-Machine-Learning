@@ -1,1 +1,1 @@
-# Folder containing all outputs generated (screenshots)
+# Folder containing all outputs generated (screenshots).
