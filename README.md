@@ -68,7 +68,6 @@ Refer this [recording]() for more details regarding the implementation.
 - Make changes while training the the models using AutoML(For example, Include deep learning models or increase the time for exit criterion while training and see if it will give a better accuracy). Deploy the model only after being sure that the best model obtained is actually the "best". 
 - Manually clean the dataset before performing AutoML run and pipeline creation. 
 - The accuracy of the model can be improved by solving the class imbalance issue of the bank-marketing datatset. 
-- Pipeline automation needs user interference in few steps. Make the whole process automated to build a complete Continuous Integration and Delivery system (CI/CD) system. 
 - Authentication is crucial for the continuous flow of operations. When authentication is not set properly, it requires human interaction and thus, the flow is interrupted. Hence, it's good to use authentication with automation whenever possible. Since the role assignments permission (which is required for creating Service Principals) has been disabled for the lab access I have, this step is not included in the project. Visualize the results by using an Azure account having all the services. 
 
 ## References: 
