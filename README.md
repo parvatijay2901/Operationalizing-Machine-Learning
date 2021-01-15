@@ -57,13 +57,13 @@ Voting Ensemble was selected as the optimal model by the AutoML run. It is an en
 
 **8. Pipeline Automation:** An Azure Machine Learning pipeline is an independently executable workflow of a complete machine learning task. Subtasks are encapsulated as a series of steps within the pipeline. A great way to automate workflows is via Pipelines and thus it can be executed using [Pipelines.ipynb](Files/Pipeline.ipynb) script. Here, we have created, published and consumed the Machine learning pipeline. 
 
-![Pipeline_1](Outputs/Pipeline_1.png)
-![Pipeline_2](Outputs/Pipeline_2.png)
+![Pipeline_1](Outputs/Pipeline_2.png)
+![Pipeline_2](Outputs/Pipeline_1.png)
 ![Pipeline_3](Outputs/Pipeline_3.png)
-![Pipeline_4](Outputs/Pipeline_4.png)
-![Pipeline_5](Outputs/Pipeline_5.png)
-![Pipeline_6](Outputs/Pipeline_6.png)
-
+![Pipeline_4](Outputs/Pipeline_7.png)
+![Pipeline_5](Outputs/Pipeline_4.png)
+![Pipeline_6](Outputs/Pipeline_5.png)
+![Pipeline_7](Outputs/Pipeline_6.png)
 ## Screencast:
 
 Refer this [recording](https://drive.google.com/file/d/1Rk0RDdDzcnGk56rUKuPeuEfNJ_WDdY2t/view?usp=sharing) for more details regarding the implementation.
